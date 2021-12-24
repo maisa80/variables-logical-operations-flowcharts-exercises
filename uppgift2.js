@@ -1,22 +1,22 @@
-/* I den här uppgiften ska ni arbeta med nummer/integers och strings. 
-Datorn kan läsa numeriska värden som de är men inte tecken. 
-Använd citattecken för att lägga in tecken som data.
+/*In this task you will work with numbers / integers and strings.
+The computer can read numeric values as they are but not characters.
+Use quotation marks to enter characters as data.
 */
 
 
-var name = "Maisa" //ditt namn som en string;
-var age = 40 //din ålder som en siffra;
-var height = 156 //din längd som en siffta i cm;
-var weight = 62 //din vikt som en siffra i kg;
-var eyes = "brun"//färgen på dina ögon som en string;
-var hair = "brun"//färgen på ditt hår som en string;
+var name = "Lisa" //Your name as a string;
+var age = 40 //your age as a number;
+var height = 156 //Your length as a number in cm;
+var weight = 62 //Your weight as a number in kg;
+var eyes = "brown"//Color of your eyes as a string;
+var hair = "brown"//Color of your hair as a string;
 var sum = age + height + weight;
 
-console.log("Det här är " + name + ".");
-console.log(name + " är " + age + " år");
-console.log(name + " är " + height + "cm lång.");
-console.log(name + " väger " + weight + "kg.");
-console.log(name + " har " + eyes + " ögon och " + hair + " hår");
+console.log("Here is " + name + ".");
+console.log(name + " is " + age + " years old");
+console.log(name + " is " + height + "cm.");
+console.log(name + " weight " + weight + "kg.");
+console.log(name + " has " + eyes + " eyes and " + hair + " hair");
 
 
-console.log("Om vi lägger ihop " + name + "s ålder vikt och längd får vi " + sum);
+console.log("If we add up " + name + "'s age weight and height we get " + sum);
