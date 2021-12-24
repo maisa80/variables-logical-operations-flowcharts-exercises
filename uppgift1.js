@@ -1,10 +1,10 @@
 /* 
-I den här uppgiften ska ni arbeta med nummer/integers. 
-För att lösa uppgiften, använd vanliga matematiska operatorer så som +,-,*,/. 
-Se till att den första <script> raden i index.html inte är utkommenterad när ni testar koden.
+In this task you will work with numbers / integers.
+To solve the problem, use common mathematical operators such as +, -, *, /.
+Make sure that the first <script> line in index.html is not commented out when testing the code.
 
-För att se resultatet av er kod så måste ni öppna webbläsarens console.
-Efter du är klar med uppgiften, manipulera värdena i variablerna nedanför och se vad som händer.
+To see the result of your code, you need to open the browser console.
+After you have completed the task, manipulate the values in the variables below and see what happens.
 */
 
 var cars = 100;
@@ -12,18 +12,18 @@ var seats_in_car = 4;
 var drivers = 30;
 var passengers = 90;
 
-//Använd variablerna ovan för att lösa koden nedan
+//Use the variables above to solve the code below
 
-var cars_without_drivers = cars - drivers; //Räkna ut hur många bilar som inte har en förare;
-    
-var cars_with_drivers = cars - cars_without_drivers;//Räkna ut hur många bilar som har en förare;
-  
-var carpool_capacity = cars_with_drivers * seats_in_car; //Räkna ut det totala antalet passagerarplatser, alla bilar med förare (cars_with_drivers) har tillsammans;
-  
-var average_passengers_per_car_in_pool = passengers/cars_with_drivers //Räkna ut snittet på antal passagerare per bil som ingår i carpoolen.
-  
-//När ni gjort klart variablerna ovan så bör koden nedanför visa resultatet i konsollen på er webbläsare
-  
+var cars_without_drivers = cars - drivers; //Calculate how many cars do not have a driver
+
+var cars_with_drivers = cars - cars_without_drivers;//Calculate how many cars have a driver
+
+var carpool_capacity = cars_with_drivers * seats_in_car; //Calculate the total number of passenger seats, all cars with drivers (cars_with_drivers) have together;
+
+var average_passengers_per_car_in_pool = passengers / cars_with_drivers //Calculate the average number of passengers per car included in the carpool.
+
+//When you have finished the variables above, the code below should show the result in the console on your browser
+
 console.log("There are " + cars + " cars available.");
 console.log("There are only " + drivers + " drivers available");
 console.log("There will be " + cars_without_drivers + " cars without drivers");
